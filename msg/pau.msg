@@ -12,3 +12,8 @@ float32 m_eyeGazeRightYaw
 float32[] m_coeffs
 # Then setting shapekey values, names must be passed
 string[] m_shapekeys
+
+#An array of arm/hand joints and angles.
+float32[] m_angles
+string[] m_joints
+
