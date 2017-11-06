@@ -13,7 +13,6 @@ float32[] m_coeffs
 # Then setting shapekey values, names must be passed
 string[] m_shapekeys
 
-#An array of arm/hand joints and angles.
+#An array of arm/hand joint angles.
 float32[] m_angles
 string[] m_joints
-
