@@ -96,6 +96,8 @@ add_message_files(
   Viseme.msg
   Visemes.msg
   TTS.msg
+  TTSItem.msg
+  TTSData.msg
 )
 
 ## Generate services in the 'srv' folder
