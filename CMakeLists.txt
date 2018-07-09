@@ -9,7 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   sensor_msgs
-  opencv_apps
 )
 
 
@@ -83,6 +82,8 @@ add_message_files(
   pau.msg
   PlayAnimation.msg
   PointHead.msg
+  Point2D.msg
+  Point2DArray.msg
   SaccadeCycle.msg
   SetGesture.msg
   SomaState.msg
@@ -120,7 +121,6 @@ generate_messages(
   std_msgs  # Or other packages containing msgs
   geometry_msgs
   sensor_msgs
-  opencv_apps
 )
 
 ################################################
