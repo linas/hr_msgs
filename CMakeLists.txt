@@ -58,6 +58,7 @@ add_message_files(
   BlinkCycle.msg
   ChatMessage.msg
   EmotionState.msg
+  CurrentFrame.msg
   EmotionStates.msg
   Event.msg
   facebox.msg
