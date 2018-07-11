@@ -66,11 +66,9 @@ add_message_files(
   facebox.msg
   FaceEvent.msg
   Face.msg
-  Face_old.msg
   faces_ids.msg
   faces.msg
   Faces.msg
-  Faces_old.msg
   f_id.msg
   ForgetAll.msg
   Forget.msg
