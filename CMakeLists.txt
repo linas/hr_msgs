@@ -49,6 +49,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  APILookAt.msg
+  Assign.msg
   audiodata.msg
   AudioStream.msg
   AvailableEmotionStates.msg
@@ -57,23 +59,28 @@ add_message_files(
   AvailableVisemes.msg
   BlinkCycle.msg
   ChatMessage.msg
-  EmotionState.msg
   CurrentFrame.msg
+  EmotionState.msg
   EmotionStates.msg
   Event.msg
   facebox.msg
   FaceEvent.msg
   Face.msg
+  Face_old.msg
   faces_ids.msg
   faces.msg
   Faces.msg
+  Faces_old.msg
   f_id.msg
+  ForgetAll.msg
+  Forget.msg
   FSShapekey.msg
   FSShapekeys.msg
   FSValues.msg
   Gesture.msg
   Gestures.msg
   GetAPIVersion.msg
+  Hand.msg
   Luminance.msg
   MakeFaceExpr.msg
   ManyEarsTrackedAudioSource.msg
@@ -81,25 +88,31 @@ add_message_files(
   Object.msg
   Objects.msg
   pau.msg
+  PiFace.msg
+  PiVisionFace.msg
+  PiVisionFaces.msg
   PlayAnimation.msg
-  PointHead.msg
-  Point2D.msg
   Point2DArray.msg
+  Point2D.msg
+  PointHead.msg
   SaccadeCycle.msg
+  SalientPoint.msg
   SetGesture.msg
   SomaState.msg
   SomaStates.msg
   SourceInfo.msg
   SourceInfoWithCovariance.msg
+  State.msg
   Target.msg
   targets.msg
   Tracker.msg
   Trackers.msg
+  TTSData.msg
+  TTSItem.msg
+  TTS.msg
   Viseme.msg
   Visemes.msg
-  TTS.msg
-  TTSItem.msg
-  TTSData.msg
+  Vision.msg
 )
 
 ## Generate services in the 'srv' folder
