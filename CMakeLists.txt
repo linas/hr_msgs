@@ -103,6 +103,7 @@ add_message_files(
   State.msg
   Target.msg
   targets.msg
+  TargetPosture.msg
   Tracker.msg
   Trackers.msg
   TTSData.msg
