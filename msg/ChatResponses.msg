@@ -1,2 +1,1 @@
-string[] sources
-string[] responses
+ChatResponse[] responses
