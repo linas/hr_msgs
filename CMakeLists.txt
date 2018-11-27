@@ -59,6 +59,7 @@ add_message_files(
   AvailableVisemes.msg
   BlinkCycle.msg
   ChatMessage.msg
+  ChatResponse.msg
   ChatResponses.msg
   CurrentFrame.msg
   EmotionState.msg
