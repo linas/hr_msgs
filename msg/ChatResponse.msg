@@ -1,3 +1,3 @@
 string text
 string lang
-string source
+string label
